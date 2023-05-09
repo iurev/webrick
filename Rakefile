@@ -7,6 +7,7 @@ Rake::TestTask.new(:test) do |t|
   t.test_files = FileList["test/**/test_*.rb"]
 end
 
+
 task :sync_tool do
   require 'fileutils'
   FileUtils.cp "../ruby/tool/lib/core_assertions.rb", "./test/lib"
