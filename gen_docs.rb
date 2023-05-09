@@ -8,5 +8,5 @@ app.load_rakefile
 
 # require "pry";binding.pry
 app['test'].reenable
-app['test'].invoke
+# app['test'].invoke
 
